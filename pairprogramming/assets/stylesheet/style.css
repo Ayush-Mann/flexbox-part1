@@ -187,6 +187,7 @@ table {
 .container4 {
 	display: flex;
 	background-color: #ffffff;
+	border-bottom: 1px solid grey;
 	/*margin: 20px;*/
 
 }
