@@ -221,7 +221,7 @@ table {
 /*last section*/
 .container6 {
 	display: flex;
-	padding: 50px 0;
+	padding: 50px 0 100px 0;
 }
 .article-last {
 	width: 45%;
@@ -235,30 +235,34 @@ table {
 }
 .article-last p {
 	color: #666666;
+	padding: 20px 0;
 }
 .parent {
 	display: flex;
 	flex-direction: row;
 }
-.name {
-	padding: 5px;
-	margin-right: 10px;
-	margin-top: 10px;
-	width: 180px;
-	height: 30px;
-	border: 1px solid grey;
-	line-height: 30px;
+.email {
+	padding: 0 10px;
 }
-.message-box {
+/*.message-box {
 	padding: 5px;
-	/*margin-right: 10px;*/
+	
 	margin-top: 10px;
 	width: 50%;
 	height: 50%;
-	/*height: 200px;*/
+	
 	border: 1px solid grey;
 	line-height: 30px;
+}*/
+.message-box {
+	padding: 20px 0;
 }
+.textarea {
+	width: 450px;
+	height: 150px;
+	font-size: 12px;	
+}
+
 .links {
 	padding: 30px 10px;
 	line-height: 3;
@@ -297,8 +301,10 @@ table {
 	border: 1px solid  grey;
 	text-align: center;
 	line-height: 30px;
-	border-radius: 15px;	
+	border-radius: 20px;	
 	margin-top: 20px;
+	padding: 10px;
+	color: #666666;
 	/*flex-shrink: 2;	*/
 
 }

@@ -5,22 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
 </head>
 <body>
-	<div class="first-background">
-		<div class="wrapper">
-			<div class="container1 flex">
-				<div class="logo">
-					<h2>Prime</h2>
-				</div>
-				<div class="navigation">
-				
-					<a href="#">Home</a>
-					<a href="#">About</a>
-					<a href="#">Generic</a>
-					<a href="#">Elements</a>
-				
+	<header class="first-background">
+		<!-- <div > -->
+			<div class="wrapper">
+				<div class="container1 flex">
+					<div class="logo">
+						<h2>Prime</h2>
+					</div>
+					<div class="navigation">
+						<a href="#">Home</a>
+						<a href="#">About</a>
+						<a href="#">Generic</a>
+						<a href="#">Elements</a>
+					</div>
 				</div>
 			</div>
-		</div>
+	
 	
 	<!-- <div class="wrapper"> -->
 		<div class="container2 wrapper">
@@ -39,7 +39,8 @@
 			</div>
 			
 		</div>	
-	</div>
+	<!-- </div> -->
+	</header>
 		<div class="container3 wrapper">
 			<div class="article2">
 				<div>
@@ -150,13 +151,23 @@
 							tempor incididunt ut sed do eiusmod</p>
 						</div>
 						<div class="parent">
-							<div class="name"> name</div>
-							<div class="name"> email</div>	
+							<!-- <div class="name"> name</div>
+							<div class="name"> email</div>	 -->
+							<div class="name">
+								<input type="name" name="name" placeholder="name">
+							</div>
+							<div class="email">
+								<input type="email" name="email address" placeholder="email">
+							</div>
 						</div>
-						<div class="message-box">Message Box</div>	
-						<div class="last-btn">
+						<div class="message-box">
+							<textarea class="textarea" name="comment" placeholder="Message us"></textarea>	
+						</div>
+							
+						<!-- <div class="last-btn">
 							<h3>SEND MESSAGE</h3>				
-						</div>
+						</div> -->
+						 <input class="btn btn-default" type="submit" name="submit" value="Submit">
 					</div>
 					<div class="links">
 						<div><i class="fab fa-twitter"></i><a class="navlinks" href="#">twitter</a></div>
